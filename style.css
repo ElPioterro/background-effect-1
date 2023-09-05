@@ -1,0 +1,62 @@
+body,
+html {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.42857143;
+  color: #ececec;
+  background-color: #2c2b2b;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* from fireship.io */
+  background: linear-gradient(
+    176deg,
+    rgb(17, 24, 26) 50%,
+    rgb(31, 38, 54) 100%
+  );
+  min-height: 100vh;
+  /* background-attachment: fixed; */
+}
+
+#hero {
+  /* background-color: rgb(103, 163, 216); */
+  height: 300px;
+  width: 565px;
+
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+
+  /* sort of - from https://www.atlassian.com/pl/software/jira */
+  background-image: linear-gradient(
+    145deg,
+    #040f22 38%,
+    #081d41 78%,
+    #0646a5 99.98%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* https://getcssscan.com/css-box-shadow-examples */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 26pt;
+}
+
+h1,
+p {
+  margin-left: 3.6rem;
+}
