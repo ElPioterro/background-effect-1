@@ -36,7 +36,7 @@ body {
 
   /* sort of - from https://www.atlassian.com/pl/software/jira */
   background-image: linear-gradient(
-    145deg,
+    180deg,
     #040f22 38%,
     #081d41 78%,
     #0646a5 99.98%
@@ -50,6 +50,8 @@ body {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 25px;
+
+  /* transition: background-image 0.5s ease; */
 }
 
 h1 {
